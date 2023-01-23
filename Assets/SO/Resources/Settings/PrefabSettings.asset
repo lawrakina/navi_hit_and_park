@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8dd776d94ef4a54b5df0b8349301115, type: 3}
+  m_Name: PrefabSettings
+  m_EditorClassIdentifier: 
+  <CarExplosionFire>k__BackingField: {fileID: 180860, guid: 89fdb9fee1f1fe94cb02018221255e50, type: 3}
+  <Arrow>k__BackingField: {fileID: 4486413508495170111, guid: 73cc7db02acdf0c4b8105b914fd1c7e7, type: 3}
+  <Ui3DMat>k__BackingField: {fileID: 2100000, guid: 45145861b7107424db171b9b3158c05c, type: 2}
+  <EffectConfetti>k__BackingField: {fileID: 165102, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
+  <EffectChangeCar>k__BackingField: {fileID: 4955258683705561151, guid: e05875e1c2e842843a233da3102d88b0, type: 3}
+  <HappyEmoji>k__BackingField:
+  - {fileID: 21300000, guid: d62dd5aa348de4b3d8196dcd83feecbb, type: 3}
+  - {fileID: 21300000, guid: b45a65eedbd7b4a789ad4df8701124c6, type: 3}
+  - {fileID: 21300000, guid: bdb159a4cd033470a8453add1f2b8cd2, type: 3}
+  - {fileID: 21300000, guid: f45a765c266ae4577aac6c1f0cabe616, type: 3}
+  <BadEmoji>k__BackingField:
+  - {fileID: 21300000, guid: 628048bce686245c9b3fb06eccefa441, type: 3}
+  - {fileID: 21300000, guid: 2ec92caf6cf394f4aadbab2a07124c10, type: 3}
+  - {fileID: 21300000, guid: 020a45f404baa40e6ac7846851771915, type: 3}
+  - {fileID: 21300000, guid: 24b837c29a17f4d4cb8be11038ce269b, type: 3}
+  <HappyMessage>k__BackingField:
+  - You're just great!
+  - Wonderful!
+  - Great! Keep it up!
+  - Magnificent!
+  - Impressive!
+  <BadMessage>k__BackingField:
+  - Almost done, try again!
+  - No pain no gain! Dont give up!
+  - You were so close! Try again!
+  - It's okay! Next time you will succeed!
+  <Boom>k__BackingField: {fileID: 180860, guid: 89fdb9fee1f1fe94cb02018221255e50, type: 3}

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9143312c424bfd84570b0984b6b159, type: 3}
+  m_Name: _DefaultShopItem
+  m_EditorClassIdentifier: 
+  <IsMultiply>k__BackingField: 0
+  <IsInfinityBuy>k__BackingField: 0
+  <Products>k__BackingField: []
+  <Product>k__BackingField:
+    _reward:
+      rid: 707284539362770956
+    _price:
+      rid: 707284539362770962
+  <Selected>k__BackingField:
+    rid: -2
+  <IsUnlockable>k__BackingField: 1
+  <UnlockConditions>k__BackingField:
+  - rid: 707284539362770952
+  _isUnlockFromStart: 1
+  _isEarnedFromStart: 1
+  <IsUpgradable>k__BackingField: 1
+  <IsLoopedUpgrades>k__BackingField: 0
+  Upgrades:
+  - _reward:
+      rid: 707284539362770953
+    _price:
+      rid: 707284539362770954
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 707284539362770952
+      type: {class: LevelUnlockCondition, ns: NavySpade.pj88.Meta, asm: Assembly-CSharp}
+      data:
+        <CountFrom>k__BackingField: 5
+        <CompletedLevel>k__BackingField: 10
+    - rid: 707284539362770953
+      type: {class: UpgradeExample, ns: NavySpade.Meta.Usage.Upgrade.Scripts, asm: Assembly-CSharp}
+      data:
+        <Damage>k__BackingField: 0
+    - rid: 707284539362770954
+      type: {class: GameProgressionPrice, ns: NavySpade.Meta.Runtime.Economic.Prices.DifferentTypes, asm: Assembly-CSharp}
+      data:
+        _requiresVictories: 4
+    - rid: 707284539362770956
+      type: {class: IntEventReward, ns: NavySpade.Meta.Runtime.Economic.Rewards.DifferentTypes, asm: Assembly-CSharp}
+      data:
+        _event: {fileID: 0}
+    - rid: 707284539362770962
+      type: {class: MultiplePrice, ns: NavySpade.Meta.Runtime.Economic.Prices.DifferentTypes, asm: Assembly-CSharp}
+      data:
+        _prices:
+        - rid: 707284539362770963
+        - rid: 707284539362770964
+    - rid: 707284539362770963
+      type: {class: CurrencyPrice, ns: NavySpade.Meta.Runtime.Economic.Prices.DifferentTypes, asm: Assembly-CSharp}
+      data:
+        <Currency>k__BackingField: {fileID: 11400000, guid: d51845f118395544caba0b69004736bf, type: 2}
+        <Count>k__BackingField: 500
+    - rid: 707284539362770964
+      type: {class: CurrencyPrice, ns: NavySpade.Meta.Runtime.Economic.Prices.DifferentTypes, asm: Assembly-CSharp}
+      data:
+        <Currency>k__BackingField: {fileID: 11400000, guid: e8b498637efb8e34f887b46eb0a788da, type: 2}
+        <Count>k__BackingField: 20

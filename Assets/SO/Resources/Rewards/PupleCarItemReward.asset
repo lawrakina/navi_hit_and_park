@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f41935f5cbc416b881ae929c490e2b9, type: 3}
+  m_Name: PupleCarItemReward
+  m_EditorClassIdentifier: 
+  <Car>k__BackingField: {fileID: 7391864741619356712, guid: c9866d6c154fa4543bb82ea3b5b89835, type: 3}
+  <ChestLockedIcon>k__BackingField: {fileID: 21300000, guid: 0ee072c07f699f34c8dcf4090e02c51c, type: 3}
+  <ChestUnlockIcon>k__BackingField: {fileID: 21300000, guid: 6aa4f3599df785d4085be36b631145e5, type: 3}
+  <Name>k__BackingField: PURPLE CAR
